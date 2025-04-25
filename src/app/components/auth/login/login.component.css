@@ -1,0 +1,116 @@
+/* General Container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: #111;
+    padding: 20px;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background-color: #444;
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login-box:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Labels */
+  .input-label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  .input-field {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #222;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Button */
+  .login-button {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  .login-button:hover {
+    background-color: #333;
+    transform: scale(1.02);
+  }
+  
+  /* Signup Link */
+  .signup-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .login-box {
+      padding: 1.5rem;
+      width: 90%;
+    }
+  
+    .login-title {
+      font-size: 1.5rem;
+    }
+  
+    .input-field {
+      font-size: 0.9rem;
+    }
+  
+    .login-button {
+      font-size: 0.9rem;
+    }
+  }
+  
